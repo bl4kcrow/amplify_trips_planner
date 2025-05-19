@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "amplifytripsplanner",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authamplifytripsplannerae1d482c"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2025-05-26T18:07:42.594Z",
+        "keyDescription": "apikeytest"
+      }
+    ],
+    "conflictResolution": {}
+  }
+}
